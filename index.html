@@ -1,17 +1,17 @@
 <html>
 <head>
-  <title>生まれて何日</title>
+  <title>How days?</title>
   <link rel="stylesheet" href="default.css">
 </head>
 <body>
   <div id="main">
-    <h1>あなたの誕生日を入力してください</h1>
+    <h1>When is your Birthday ?</h1>
     <h2 style="display: none" id="result"></h2>
     <form method="post" onsubmit="calculateBirthday(); return false;">
-      <input type="number" id="year" name="year" value=2000>年
-      <input type="number" id="month" name="month" value=1 min=1 max=12>月
-      <input type="number" id="day" name="day" value=1 min=1 max=31>日
-      <input type="submit" value="この日が私の誕生日です">
+      year<input type="number" id="year" name="year" value=2000>
+      month<input type="number" id="month" name="month" value=1 min=1 max=12>
+      day<input type="number" id="day" name="day" value=1 min=1 max=31>
+      <input type="submit" value="It's my Birthday!">
     </form>
   </div>
 
